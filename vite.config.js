@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import vue from '@vitejs/plugin-vue';
+import vuetify from 'vite-plugin-vuetify';
 import { defineConfig } from 'vite';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -20,5 +21,27 @@ export default defineConfig({
         outDir: join(__dirname, 'build', 'renderer'),
         emptyOutDir: true,
     },
-    plugins: [vue()],
+    plugins: [
+        vue(),
+        vuetify({
+            autoImport: true,
+            styles: { 
+                configFile: join(__dirname, 'src', 'renderer', 'scss', 'variables.scss')
+            }
+        })
+    ],
+    resolve: {
+        alias: {
+            '@': join(__dirname, 'src', 'renderer')
+        }
+    },
+    css: {
+        preprocessorOptions: {
+            scss: {}
+        }
+    },
+    optimizeDeps: {
+        exclude: ['vuetify'],
+        entries: [join(__dirname, 'src', 'renderer', '**', '*.vue')]
+    }
 });
