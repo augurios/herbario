@@ -6,7 +6,7 @@ const Path = require('path');
 const Chalk = require('chalk');
 const Chokidar = require('chokidar');
 const Electron = require('electron');
-const compileTs = require('./private/tsc');
+const compileTs = require('./private/tsc.cjs');
 const FileSystem = require('fs');
 const { EOL } = require('os');
 

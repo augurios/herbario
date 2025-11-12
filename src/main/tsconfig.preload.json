@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "ES2020",
+    "module": "commonjs",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
@@ -9,7 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "../../build/main",
     "allowJs": true,
-    "noImplicitAny": false,
+    "noImplicitAny": false
   },
-  "exclude": ["static", "preload.ts"]
+  "include": ["preload.ts"]
 }
