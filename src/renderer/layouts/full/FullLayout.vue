@@ -6,7 +6,7 @@ import Topbar from './Topbar.vue';
 
 <template>
     <v-locale-provider>
-        <Topbar />
+        <!-- <Topbar /> -->
         <v-app>
             <v-main>
                 <MainView />

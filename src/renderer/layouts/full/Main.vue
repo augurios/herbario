@@ -69,18 +69,11 @@ const sDrawer = ref(true);
                             <Menu2Icon size="20" stroke-width="1.5" />
                         </v-btn>
                         <!-- Notification -->
-                        <NotificationDD />
+                        <!-- <NotificationDD /> -->
                     </div>
                     <div>
-                        <!-- Upgrade button -->
-                        <v-btn
-                            class="mr-2 bg-primary rounded-pill"
-                            href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#demos"
-                            target="_blank"
-                            >Check Pro Version</v-btn
-                        >
-                        <!-- User Profile -->
-                        <ProfileDD />
+
+                        <!-- <ProfileDD /> -->
                     </div>
                 </div>
             </v-app-bar>
