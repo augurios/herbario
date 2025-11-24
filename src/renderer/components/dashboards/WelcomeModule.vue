@@ -1,13 +1,33 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { computed } from 'vue';
+import { ref, computed } from 'vue';
 import { useTheme } from 'vuetify';
 import { DotsVerticalIcon } from 'vue-tabler-icons';
+import plantasData from '@/plantas.json';
+
 const items = ref([
     { title: "Action" },
     { title: "Another action" },
     { title: "Something else here" },
 ]);
+
+// Extract all unique uses from plantas.json
+const allUses = computed(() => {
+    const usesSet = new Set<string>();
+    plantasData.forEach((planta: any) => {
+        if (planta.uses && Array.isArray(planta.uses)) {
+            planta.uses.forEach((use: string) => usesSet.add(use));
+        }
+    });
+    return Array.from(usesSet).sort();
+});
+
+const selectedUse = ref<string | null>(null);
+
+const selectUse = (use: string) => {
+    selectedUse.value = use;
+    console.log('Selected use:', use);
+    // TODO: Filter plantas by selected use
+};
 
 const theme = useTheme();
 const primary = theme.current.value.colors.primary;
@@ -132,6 +152,26 @@ const chartOptions = computed(() => {
             <v-row>
                 <v-col cols="12" class="pt-7">
                     <h2>Que Sintomas desea sanar?</h2>
+                </v-col>
+            </v-row>
+
+            <!-- Uses/Symptoms Buttons Section -->
+            <v-row class="mt-4">
+                <v-col cols="12">
+                    <div class="d-flex flex-wrap ga-2">
+                        <v-btn
+                            v-for="use in allUses"
+                            :key="use"
+                            :color="selectedUse === use ? 'primary' : 'default'"
+                            :variant="selectedUse === use ? 'flat' : 'outlined'"
+                            size="small"
+                            rounded="lg"
+                            @click="selectUse(use)"
+                            class="text-capitalize"
+                        >
+                            {{ use }}
+                        </v-btn>
+                    </div>
                 </v-col>
             </v-row>
         </v-card-item>
