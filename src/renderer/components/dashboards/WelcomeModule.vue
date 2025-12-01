@@ -24,10 +24,22 @@ const allUses = computed(() => {
 const selectedUse = ref<string | null>(null);
 
 const selectUse = (use: string) => {
-    selectedUse.value = use;
-    console.log('Selected use:', use);
-    // TODO: Filter plantas by selected use
+    if (selectedUse.value === use) {
+        selectedUse.value = null; // Deselect if clicking the same button
+    } else {
+        selectedUse.value = use;
+    }
 };
+
+// Filter plants based on selected use
+const filteredPlantas = computed(() => {
+    if (!selectedUse.value) {
+        return plantasData; // Show all plants if no use is selected
+    }
+    return plantasData.filter((planta: any) => {
+        return planta.uses && planta.uses.includes(selectedUse.value);
+    });
+});
 
 const theme = useTheme();
 const primary = theme.current.value.colors.primary;
@@ -172,6 +184,78 @@ const chartOptions = computed(() => {
                             {{ use }}
                         </v-btn>
                     </div>
+                </v-col>
+            </v-row>
+
+            <!-- Plants Display Section -->
+            <v-row class="mt-6">
+                <v-col 
+                    v-for="planta in filteredPlantas" 
+                    :key="planta.id"
+                    cols="12"
+                    sm="6"
+                    md="4"
+                    lg="3"
+                >
+                    <v-card 
+                        elevation="2" 
+                        rounded="lg"
+                        class="h-100"
+                        hover
+                    >
+                        <v-card-item>
+                            <v-card-title class="text-h6 mb-2">
+                                {{ planta.common_name_cr }}
+                            </v-card-title>
+                            <v-card-subtitle class="text-caption font-italic mb-3">
+                                {{ planta.scientific_name }}
+                            </v-card-subtitle>
+                            
+                            <div v-if="planta.description" class="text-body-2 mb-3">
+                                {{ planta.description.substring(0, 100) }}{{ planta.description.length > 100 ? '...' : '' }}
+                            </div>
+
+                            <div v-if="planta.uses && planta.uses.length > 0">
+                                <div class="text-caption font-weight-bold mb-1">Usos:</div>
+                                <v-chip
+                                    v-for="(use, index) in planta.uses.slice(0, 3)"
+                                    :key="index"
+                                    size="x-small"
+                                    color="primary"
+                                    variant="tonal"
+                                    class="mr-1 mb-1"
+                                >
+                                    {{ use }}
+                                </v-chip>
+                                <div v-if="planta.uses.length > 3" class="text-caption text-grey">
+                                    +{{ planta.uses.length - 3 }} más
+                                </div>
+                            </div>
+                        </v-card-item>
+
+                        <v-card-actions>
+                            <v-btn 
+                                color="primary" 
+                                variant="text"
+                                size="small"
+                            >
+                                Ver detalles
+                            </v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-col>
+            </v-row>
+
+            <!-- Show message when no plants match the filter -->
+            <v-row v-if="selectedUse && filteredPlantas.length === 0" class="mt-6">
+                <v-col cols="12" class="text-center">
+                    <v-alert
+                        type="info"
+                        variant="tonal"
+                        rounded="lg"
+                    >
+                        No se encontraron plantas para el uso seleccionado: <strong>{{ selectedUse }}</strong>
+                    </v-alert>
                 </v-col>
             </v-row>
         </v-card-item>

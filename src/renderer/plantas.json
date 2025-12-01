@@ -9,33 +9,21 @@
     "description": "Hierba aromática anual de hasta 60 cm de altura, con hojas de color verde brillante, con aproximadamente 6 cm de largo. Las flores son de color crema o blancas y se ubican en el extremo de las ramas. Esta planta es muy utilizada en las comidas como fuente de aroma y sabor.",
     "uses": [
       "Baja la fiebre",
-      "Disminuye vómito y dolor estomacal",
-      "Alivia dolor de cabeza",
-      "Estimula el organismo",
+      "Disminuye el vómito y dolor estomacal",
+      "Alivia el dolor de cabeza",
+      "Estimula el organismo en general",
       "Regula la menstruación",
-      "Alivia ulceraciones de boca y garganta",
+      "Alivia ulceraciones de la boca, dolor de garganta e inflamaciones de las amígdalas",
       "Fortalece el cabello"
     ],
     "preparations": [
-      {
-        "type": "Maceración en alcohol",
-        "instructions": "Cortar una rama en trocitos, sumergir en 1 litro de alcohol, tapar y dejar 8-9 horas. Usar para fricciones y baños."
-      },
-      {
-        "type": "Infusión",
-        "instructions": "Echar 4 cucharadas de hojas y flores en ½ litro de agua hirviendo. Reposar 10 min. Tomar ½ taza 4 veces al día."
-      },
-      {
-        "type": "Gárgaras",
-        "instructions": "Con la misma infusión, hacer gárgaras 4 veces al día."
-      },
-      {
-        "type": "Baño capilar",
-        "instructions": "Hervir una rama 10 min, enfriar y aplicar en cabello limpio."
-      }
+      { "type": "Maceración en alcohol", "instructions": "Una rama cortada en trocitos, se sumerge en una botella de 1 litro de alcohol, se tapa y se deja 8-9 horas. Se utiliza para fricciones y baños." },
+      { "type": "Infusión", "instructions": "Echar 4 cucharadas de hojas y flores en ½ litro de agua hirviendo y dejar reposar 10 minutos. Tomar ½ taza 4 veces durante el día." },
+      { "type": "Gárgaras", "instructions": "Con la misma infusión, hacer gárgaras 4 veces al día." },
+      { "type": "Baños de la planta hervida", "instructions": "Se hierve una rama por 10 minutos, se enfría y se pone en el cuero cabelludo y en cabello después de lavarlo." }
     ],
-    "cultivation": "Semillas en cajón semillero o esquejes de 15 cm. Trasplante a los 30 días.",
-    "precautions": "No niños <5 años, embarazadas ni adultos con tratamientos crónicos."
+    "cultivation": "La especie se multiplica por semillas; requieren ser cultivadas en un cajón semillero. También se multiplica por esquejes o estacas: se podan estacas de 15 cm de longitud y se trasplantan al lugar definitivo. La planta florece entre los 30 y 60 días después de plantada.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "02",
@@ -43,23 +31,20 @@
     "common_name_ca": "Caña Agria",
     "scientific_name": "Costus spicatus (Jacq.) Sw.",
     "family": "Costaceae",
-    "origin": "Sur de México hasta Sur América y Antillas",
-    "description": "Hierba de 1-2 m en lugares húmedos. Hojas en espiral, gruesas, 10-20 cm. Espiga cónica roja; flores lila.",
+    "origin": "Sur de México hasta Sudamérica y Antillas",
+    "description": "Hierba que crece en lugares húmedos y sombríos del bosque, mide de 1 a 2 m de altura. Tallos con hojas en posición en espiral, hojas gruesas de 10 a 20 cm de largo, de 5 a 7 cm de ancho, la inflorescencia en una espiga en forma de cono de color rojo oscuro o anaranjada, flores color lila.",
     "uses": [
-      "Depurativo y antibiótico urinario",
-      "Elimina cálculos renales",
-      "Dolores de oídos",
-      "Dolor de cabeza",
+      "Depurativo y actúa como antibiótico contra las infecciones de las vías urinarias",
+      "Elimina los cálculos renales",
+      "Alivia los dolores de los oídos",
+      "Alivia el dolor de cabeza",
       "Baja la fiebre"
     ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hervir 5 cucharaditas de tallo en trozos en 1 litro de agua. Beber 3-4 vasos al día."
-      }
+      { "type": "Infusión", "instructions": "Se hierven 5 cucharaditas de tallos cortados en trocitos en 1 litro de agua. Beber 3 a 4 vasos de Bonzas al día." }
     ],
-    "cultivation": "Estacas de 25-30 cm en cajón con arena + tierra negra; sombra y humedad.",
-    "precautions": "No niños <5 años, embarazadas ni adultos con tratamientos crónicos."
+    "cultivation": "Se multiplica por estacas que se realizan a los tallos gruesos y viejos: se cortan estacas de 25 a 30 cm de longitud y se colocan inclinadas en un cajón semillero con arena de río y materia orgánica (tierra negra), se ubican en una zona sombreada y se les suministra agua para mantener la humedad, favorecer el enraizamiento y la producción de brotes nuevos.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "03",
@@ -67,29 +52,20 @@
     "common_name_ca": "Ciprés",
     "scientific_name": "Cupressus lusitanica Mill.",
     "family": "Cupressaceae",
-    "origin": "Centro-Sureste México hasta Nicaragua",
-    "description": "Árbol 15-20 m. Hojas escamas muy aromáticas. Conos globosos.",
+    "origin": "Centro-Sureste de México hasta Nicaragua",
+    "description": "Árbol de 15 a 20 m de tronco erguido de hojas pequeñas tipo escamas, el árbol posee estructuras reproductoras masculinas y femeninas en el mismo árbol, las masculinas son terminales en los extremos de las ramitas formando una bolita pequeña amarilla, las femeninas se desarrollan en las axilas de las ramas y son en forma de globo y grandes. Las hojas son muy olorosas por sus aceites esenciales.",
     "uses": [
-      "Problemas de próstata",
-      "Sarampión (baños)",
-      "Conserva color del cabello"
+      "Alivia los problemas de la próstata",
+      "Combate los síntomas del sarampión",
+      "Para conservar el color del cabello y mantener el color primitivo"
     ],
     "preparations": [
-      {
-        "type": "Maceración",
-        "instructions": "Moler 1 cda de hojas en 1 taza de jugo de uva/manzana. Tomar cada 8 h."
-      },
-      {
-        "type": "Baños",
-        "instructions": "Cocinar ramas en agua, colar y bañar al paciente."
-      },
-      {
-        "type": "Cocimiento de fruto",
-        "instructions": "Hervir 4-5 frutos en 2 tazas de agua. Enfriar y aplicar en cabello limpio."
-      }
+      { "type": "Maceración", "instructions": "Se muele 1 cucharada de hojas de ciprés en 1 taza de jugo de uva o manzana, se toma cada 8 horas." },
+      { "type": "Baños", "instructions": "Se cocinan unas ramas de ciprés en agua, se cuela y se hacen baños." },
+      { "type": "Cocimiento del fruto", "instructions": "Hervir una cucharada de frutos (4 a 5 frutos) en 2 tazas de agua, se cuela y se aplica frío sobre el cabello limpio." }
     ],
-    "cultivation": "Semillas en cajón 3-4 meses → bolsas o sitio definitivo.",
-    "precautions": "No niños <5 años, embarazadas ni adultos con tratamientos crónicos."
+    "cultivation": "Se reproduce por semillas, las cuales germinan en un cajón semillero con arena y materia orgánica, aquí se dejan por un lapso de tres a cuatro meses y luego se trasladan a bolsas de cultivo grandes o se siembran directamente en el lugar definitivo.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "04",
@@ -98,26 +74,20 @@
     "scientific_name": "Equisetum bogotense Kunth – Equisetum giganteum L.",
     "family": "Equisetaceae",
     "origin": "América Central, del Sur y Antillas",
-    "description": "Dos especies: Bogotá (10-30 cm) y Gigante (hasta 3 m). Tallos nudosos, hojas aguja, sin flores.",
+    "description": "En Costa Rica hay dos tipos de cola de caballo, la denominada cola de caballo de Bogotá y la gigante. La de Bogotá, alcanza una altura entre los 10 y 30 cm, es una hierba de color verde amarillento, no tiene flores y sí tallos divididos por abundantes nudos, alrededor de los que se ubican las finas hojas y alargadas con forma de aguja. En el extremo de los tallos se ubican los cuerpos reproductivos de la planta que tienen forma de piña pequeña, de color amarillento, habita en alturas de 1 000 a 3 000 m. La cola de caballo gigante es también una hierba pero puede alcanzar hasta 3 m de altura, no tiene flores y sus tallos al igual que la de Bogotá están divididos por abundantes nudos, alrededor de los que se ubican hojas muy finas en forma de aguja de hasta 12 cm de largo, divididas también en pequeños nudos. A lo largo de los tallos se ubican placas negras en una serie de líneas acanaladas las cuales están ausentes en la cola de caballo de Bogotá, vive de 800 a 1 700 m y cuando se tocan los tallos se siente una apariencia carrasposa, como de lija.",
     "uses": [
-      "Enfermedades de vejiga",
-      "Hemorragias internas",
-      "Purifica sangre",
+      "Cura enfermedades de la vejiga",
+      "Contra las hemorragias internas",
+      "Purifica la sangre",
       "Aporta minerales",
-      "Úlceras/heridas (externo)"
+      "Alivia úlceras, heridas y problemas de la piel (uso externo)"
     ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Reposar 1 cdita de planta seca en 1 taza de agua hirviendo 10 min. 1-2 veces al día."
-      },
-      {
-        "type": "Uso externo",
-        "instructions": "Pañitos empapados con la infusión sobre heridas o piel."
-      }
+      { "type": "Infusión", "instructions": "Se deja reposar una cucharadita de la planta seca en una taza de agua hirviendo por 10 minutos. Se ingiere 1 o 2 veces al día por varios días." },
+      { "type": "Uso externo", "instructions": "Se preparan pañitos empapados de la infusión de la planta y se aplica localmente sobre las úlceras, heridas o la piel." }
     ],
-    "cultivation": "Dividir macolla vieja y sembrar en zona anegada a pleno sol.",
-    "precautions": "No niños <5 años, embarazadas ni adultos con tratamientos crónicos."
+    "cultivation": "Se extrae una parte de la macolla vieja y se cultiva en una zona anegada y a pleno sol.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "05",
@@ -125,25 +95,40 @@
     "common_name_ca": "Manto del Señor",
     "scientific_name": "Tradescantia zebrina Bosse",
     "family": "Commelinaceae",
+    "origin": "México hasta Panamá",
+    "description": "Hierba rastrera de tallos suaves, hojas ovaladas de color verde oscuro con dos franjas plateadas en la parte superior y envés morado.",
+    "uses": [
+      "Inflamación de garganta",
+      "Tos",
+      "Gripe",
+      "Bronquitis",
+      "Dolor de estómago"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "3 hojas frescas en 1 taza de agua hirviendo. 3 veces al día."
-      }
-    ]
+      { "type": "Infusión", "instructions": "3 hojas frescas en 1 taza de agua hirviendo. 3 veces al día." }
+    ],
+    "cultivation": "Esquejes en cualquier tipo de suelo.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "06",
-    "common_name_cr": "Cuatro Coyote",
-    "common_name_ca": "Cuatro Coyote",
+    "common_name_cr": "Culantro Coyote",
+    "common_name_ca": "Culantro Coyote",
     "scientific_name": "Eryngium foetidum L.",
     "family": "Apiaceae",
+    "origin": "América Tropical",
+    "description": "Hierba de 20-40 cm de altura, hojas largas y dentadas que forman una roseta basal, flores blancas en cabezuela.",
+    "uses": [
+      "Fiebre",
+      "Gripe",
+      "Dolor de cabeza",
+      "Resfríos"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas frescas en agua caliente. 3 tazas al día."
-      }
-    ]
+      { "type": "Infusión", "instructions": "Hojas frescas en agua caliente. 3 tazas al día." }
+    ],
+    "cultivation": "Semillas o división de matas.",
+    "precautions": "Evitar su consumo las siguientes personas o consumirlo bajo supervisión médica: niños menores de 5 años, mujeres embarazadas, adultos mayores en el caso que consuman tratamientos de enfermedades crónicas."
   },
   {
     "id": "07",
@@ -151,24 +136,29 @@
     "common_name_ca": "Frailecillo",
     "scientific_name": "Jatropha gossypiifolia L.",
     "family": "Euphorbiaceae",
+    "uses": [
+      "Limpia la matriz después del parto",
+      "Hemorragias",
+      "Inflamación de ovarios"
+    ],
     "preparations": [
-      {
-        "type": "Cocimiento para baños",
-        "instructions": "Hojas en agua caliente. Usar en baños de asiento."
-      }
+      { "type": "Cocimiento para baños", "instructions": "Hojas en agua caliente. Usar en baños de asiento." }
     ]
   },
   {
     "id": "08",
     "common_name_cr": "Gavilana",
     "common_name_ca": "Gavilana",
-    "scientific_name": "Neurolaena lobata (L.) Cass.",
+    "scientific_name": "Neurolaena lobata (L.) R.Br.",
     "family": "Asteraceae",
+    "uses": [
+      "Diabetes",
+      "Malaria",
+      "Parásitos intestinales",
+      "Hepatitis"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "3 hojas en 1 litro de agua. 3 vasos al día."
-      }
+      { "type": "Infusión", "instructions": "3 hojas en 1 litro de agua. 3 vasos al día." }
     ]
   },
   {
@@ -177,11 +167,14 @@
     "common_name_ca": "Guarumo",
     "scientific_name": "Cecropia obtusifolia Bertol.",
     "family": "Cecropiaceae",
+    "uses": [
+      "Diabetes",
+      "Presión arterial alta",
+      "Asma",
+      "Tos"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas jóvenes en agua caliente. 2-3 tazas al día."
-      }
+      { "type": "Infusión", "instructions": "Hojas jóvenes en agua caliente. 2-3 tazas al día." }
     ]
   },
   {
@@ -190,15 +183,15 @@
     "common_name_ca": "Guayaba",
     "scientific_name": "Psidium guajava L.",
     "family": "Myrtaceae",
+    "uses": [
+      "Diarrea",
+      "Colitis",
+      "Gastritis",
+      "Heridas (lavados)"
+    ],
     "preparations": [
-      {
-        "type": "Cocimiento de hojas",
-        "instructions": "10 hojas en 1 litro de agua. 3 tazas al día."
-      },
-      {
-        "type": "Lavados",
-        "instructions": "Mismo cocimiento para lavar heridas."
-      }
+      { "type": "Cocimiento de hojas", "instructions": "10 hojas en 1 litro de agua. 3 tazas al día." },
+      { "type": "Lavados", "instructions": "Mismo cocimiento para lavar heridas." }
     ]
   },
   {
@@ -207,11 +200,14 @@
     "common_name_ca": "Menta",
     "scientific_name": "Mentha spicata L.",
     "family": "Lamiaceae",
+    "uses": [
+      "Dolor de estómago",
+      "Gases",
+      "Náuseas",
+      "Insomnio"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "1 cda de hojas en 1 taza. 3 veces al día."
-      }
+      { "type": "Infusión", "instructions": "1 cucharada de hojas en 1 taza. 3 veces al día." }
     ]
   },
   {
@@ -220,11 +216,14 @@
     "common_name_ca": "Hombre grande",
     "scientific_name": "Quassia amara L.",
     "family": "Simaroubaceae",
+    "uses": [
+      "Malaria",
+      "Parásitos intestinales",
+      "Fiebre",
+      "Diabetes"
+    ],
     "preparations": [
-      {
-        "type": "Maceración en frío",
-        "instructions": "Virutas de madera en agua fría 12 h. 1 vaso al día."
-      }
+      { "type": "Maceración en frío", "instructions": "Virutas de madera en agua fría 12 horas. 1 vaso al día." }
     ]
   },
   {
@@ -233,11 +232,14 @@
     "common_name_ca": "Jengibre",
     "scientific_name": "Zingiber officinale Roscoe",
     "family": "Zingiberaceae",
+    "uses": [
+      "Gripe",
+      "Tos",
+      "Náuseas y vómitos",
+      "Mejora la circulación"
+    ],
     "preparations": [
-      {
-        "type": "Té",
-        "instructions": "Rodajas frescas en agua hirviendo + miel."
-      }
+      { "type": "Té", "instructions": "Rodajas frescas en agua hirviendo + miel." }
     ]
   },
   {
@@ -246,11 +248,14 @@
     "common_name_ca": "Juanilama",
     "scientific_name": "Lippia alba (Mill.) N.E.Br.",
     "family": "Verbenaceae",
+    "uses": [
+      "Gripe",
+      "Tos",
+      "Dolor de cabeza",
+      "Dolor de estómago"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas frescas en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas frescas en agua caliente." }
     ]
   },
   {
@@ -259,15 +264,15 @@
     "common_name_ca": "Llantén",
     "scientific_name": "Plantago major L.",
     "family": "Plantaginaceae",
+    "uses": [
+      "Tos",
+      "Bronquitis",
+      "Heridas",
+      "Hemorragias"
+    ],
     "preparations": [
-      {
-        "type": "Jarabe",
-        "instructions": "Hojas frescas con miel."
-      },
-      {
-        "type": "Cataplasma",
-        "instructions": "Hojas machacadas directo sobre la piel."
-      }
+      { "type": "Jarabe", "instructions": "Hojas frescas con miel." },
+      { "type": "Cataplasma", "instructions": "Hojas machacadas directo sobre la piel." }
     ]
   },
   {
@@ -276,11 +281,14 @@
     "common_name_ca": "Manzanilla",
     "scientific_name": "Matricaria chamomilla L.",
     "family": "Asteraceae",
+    "uses": [
+      "Nervios",
+      "Cólicos",
+      "Insomnio",
+      "Conjuntivitis (lavados)"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Flores secas en agua caliente. 2-3 tazas al día."
-      }
+      { "type": "Infusión", "instructions": "Flores secas en agua caliente. 2-3 tazas al día." }
     ]
   },
   {
@@ -289,11 +297,13 @@
     "common_name_ca": "Naranjo Agrio",
     "scientific_name": "Citrus aurantium L.",
     "family": "Rutaceae",
+    "uses": [
+      "Nervios",
+      "Insomnio",
+      "Ayuda a la digestión"
+    ],
     "preparations": [
-      {
-        "type": "Té de flor de azahar",
-        "instructions": "Flores frescas o secas en agua caliente."
-      }
+      { "type": "Té de flor de azahar", "instructions": "Flores frescas o secas en agua caliente." }
     ]
   },
   {
@@ -302,11 +312,14 @@
     "common_name_ca": "Orégano",
     "scientific_name": "Lippia graveolens Kunth",
     "family": "Verbenaceae",
+    "uses": [
+      "Gripe",
+      "Tos",
+      "Dolor de garganta",
+      "Dolor de estómago"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas secas en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas secas en agua caliente." }
     ]
   },
   {
@@ -315,11 +328,14 @@
     "common_name_ca": "Ortiga mayor",
     "scientific_name": "Urtica dioica L.",
     "family": "Urticaceae",
+    "uses": [
+      "Anemia",
+      "Caída del cabello",
+      "Reumatismo",
+      "Diabetes"
+    ],
     "preparations": [
-      {
-        "type": "Cocimiento",
-        "instructions": "Hojas en agua; para beber o baños."
-      }
+      { "type": "Cocimiento", "instructions": "Hojas en agua; para beber o baños." }
     ]
   },
   {
@@ -328,15 +344,14 @@
     "common_name_ca": "Papaya",
     "scientific_name": "Carica papaya L.",
     "family": "Caricaceae",
+    "uses": [
+      "Parásitos intestinales",
+      "Ayuda a la digestión",
+      "Heridas y callos"
+    ],
     "preparations": [
-      {
-        "type": "Semillas molidas",
-        "instructions": "Con miel contra parásitos."
-      },
-      {
-        "type": "Látex directo",
-        "instructions": "Sobre callos o verrugas."
-      }
+      { "type": "Semillas molidas", "instructions": "Con miel contra parásitos." },
+      { "type": "Látex directo", "instructions": "Sobre callos o verrugas." }
     ]
   },
   {
@@ -345,11 +360,13 @@
     "common_name_ca": "Pasionaria",
     "scientific_name": "Passiflora quadrangularis L.",
     "family": "Passifloraceae",
+    "uses": [
+      "Nervios",
+      "Insomnio",
+      "Presión arterial alta"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas y flores en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas y flores en agua caliente." }
     ]
   },
   {
@@ -358,15 +375,15 @@
     "common_name_ca": "Romero",
     "scientific_name": "Rosmarinus officinalis L.",
     "family": "Lamiaceae",
+    "uses": [
+      "Mejora la memoria",
+      "Circulación",
+      "Caída del cabello",
+      "Reumatismo"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas secas."
-      },
-      {
-        "type": "Aceite macerado",
-        "instructions": "Hojas en alcohol 10 días."
-      }
+      { "type": "Infusión", "instructions": "Hojas secas." },
+      { "type": "Aceite macerado", "instructions": "Hojas en alcohol 10 días." }
     ]
   },
   {
@@ -375,11 +392,13 @@
     "common_name_ca": "Salvia",
     "scientific_name": "Buddleja americana L.",
     "family": "Buddlejaceae",
+    "uses": [
+      "Diabetes",
+      "Presión arterial alta",
+      "Problemas del hígado"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas frescas en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas frescas en agua caliente." }
     ]
   },
   {
@@ -388,24 +407,28 @@
     "common_name_ca": "Sacaraguaná",
     "scientific_name": "Senna reticulata (Willd.) H.S.Irwin & Barneby",
     "family": "Fabaceae",
+    "uses": [
+      "Estreñimiento",
+      "Problemas del hígado",
+      "Depurativo"
+    ],
     "preparations": [
-      {
-        "type": "Infusión laxante",
-        "instructions": "2 hojas en 1 taza. Solo por la noche."
-      }
+      { "type": "Infusión laxante", "instructions": "2 hojas en 1 taza. Solo por la noche." }
     ]
   },
   {
     "id": "25",
     "common_name_cr": "Sacaraguaná de montaña",
-    "common_name_ca": "Senna alata L.",
+    "common_name_ca": "Maravilla",
     "scientific_name": "Senna alata (L.) Roxb.",
     "family": "Fabaceae",
+    "uses": [
+      "Hongos en la piel",
+      "Sarna",
+      "Tiña"
+    ],
     "preparations": [
-      {
-        "type": "Cocimiento para lavados",
-        "instructions": "Hojas hervidas → lavar hongos o tiña."
-      }
+      { "type": "Cocimiento para lavados", "instructions": "Hojas hervidas → lavar la zona afectada." }
     ]
   },
   {
@@ -414,11 +437,13 @@
     "common_name_ca": "Sorosi",
     "scientific_name": "Momordica charantia L.",
     "family": "Cucurbitaceae",
+    "uses": [
+      "Diabetes",
+      "Parásitos intestinales",
+      "Heridas"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas o fruto verde en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas o fruto verde en agua caliente." }
     ]
   },
   {
@@ -427,11 +452,13 @@
     "common_name_ca": "Tilo",
     "scientific_name": "Justicia pectoralis Jacq.",
     "family": "Acanthaceae",
+    "uses": [
+      "Nervios",
+      "Tos",
+      "Gripe"
+    ],
     "preparations": [
-      {
-        "type": "Infusión",
-        "instructions": "Hojas secas en agua caliente."
-      }
+      { "type": "Infusión", "instructions": "Hojas secas en agua caliente." }
     ]
   },
   {
@@ -440,11 +467,13 @@
     "common_name_ca": "Zacate limón",
     "scientific_name": "Uncaria tomentosa (Willd. ex Roem & Schult.) DC.",
     "family": "Rubiaceae",
+    "uses": [
+      "Antiinflamatorio",
+      "Refuerza el sistema inmune",
+      "Apoyo en tratamientos oncológicos"
+    ],
     "preparations": [
-      {
-        "type": "Cocimiento de corteza",
-        "instructions": "5 g de corteza en 1 litro. 2-3 tazas al día."
-      }
+      { "type": "Cocimiento de corteza", "instructions": "5 g de corteza en 1 litro. 2-3 tazas al día." }
     ]
   }
 ]
